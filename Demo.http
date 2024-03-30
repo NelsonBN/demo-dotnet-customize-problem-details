@@ -1,0 +1,9 @@
+@address = http://localhost:8080
+
+GET {{address}}/412
+Accept: application/json
+
+###
+
+GET {{address}}/problem
+Accept: application/json
